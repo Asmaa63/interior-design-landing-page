@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-link {
+    @apply text-[22px] font-semibold text-[#545454] hover:text-[#1f1f1f];
+}
+.button {
+    @apply bg-[#1f1f1f] text-white rounded text-center whitespace-nowrap w-auto 
+           px-7 py-2 hover:bg-gray-800 md:px-6 md:py-2 sm:px-4 sm:py-1 
+           text-base md:text-sm sm:text-xs;
+  }
+.button2 {
+  @apply text-lg sm:text-xl md:text-2xl lg:text-[24px] hover:bg-gray-800;
+  @apply bg-[#1f1f1f] text-white px-6 sm:px-8 md:px-10 lg:px-12;
+  @apply py-2 sm:py-3 md:py-4 rounded-md hover:bg-gray-800 transition-all duration-300 ease-in-out;
+}
+.text-num {
+  @apply font-[400] text-[#515151] text-[34px] sm:text-[40px] md:text-[52px];
+}
+
+.text-title-service{
+  @apply text-3xl font-semibold mb-4 text-[#1f1f1f];
+}
+.text-p-service{
+  @apply text-[14px] font-medium text-[#151515];
+}
+.text-plus {
+  @apply flex justify-between items-center w-full text-left font-semibold text-gray-700 border-b pb-2 text-base sm:text-lg;
+}
+.section{
+  @apply flex items-center justify-between mt-10;
+}
+.section-div {
+  @apply max-w-5xl mx-auto bg-white py-7 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-10 px-4 sm:px-6 lg:px-8;
+}
+
+.dream-img{
+  @apply rounded-sm shadow-md;
+}
+.section-title {
+  @apply text-2xl sm:text-4xl md:text-4xl font-semibold text-left;
+}
+
+.div-dream2{
+  @apply flex flex-row items-center text-center lg:text-left;
+}
+
