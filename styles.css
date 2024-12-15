@@ -52,5 +52,3 @@
 .text-gray-600 {
   @apply text-sm sm:text-base md:text-lg text-gray-600;
 }
-
-

@@ -1,4 +1,4 @@
-/* General Section Styling */
+/* General Section Dream2 Styling */
 .section-dream2 {
   display: flex;
   justify-content: space-between;
@@ -92,11 +92,8 @@
   border-radius: 2px;
 }
 
-
-
 /* Responsive Styling */
 
-/* عندما تكون الشاشة 1000 بكسل أو أقل */
 @media (max-width: 1000px) {
   .section-dream2 {
     flex-direction: column;
@@ -117,7 +114,6 @@
   }
 }
 
-/* عندما تكون الشاشة 900 بكسل أو أقل */
 @media (max-width: 900px) {
   .section-dream2 {
     flex-direction: column-reverse;
@@ -172,13 +168,8 @@
   }
 }
 
-/* عندما تكون الشاشة بين 600 و 900 بكسل */
 @media (max-width: 700px) {
-  /* .section-dream2 .section-div {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-  } */
+
    .content-cards{
     display: flex;
     flex-direction: row;
@@ -186,17 +177,12 @@
     flex-wrap: wrap;
   }
 
-  /* .section-dream2 .step {
-    flex: 1 1 calc(50% - 10px);
-  } */
-
   .section-dream2 .dream-img {
     height: 250px;
     width: 100%;
   }
 }
 
-/* عندما تكون الشاشة أقل من 600 بكسل */
 @media (max-width: 480px) {
   .section-dream2 .step {
     flex: 1 1 100%;
@@ -217,14 +203,7 @@
 }
 
 
-
-
-
-
-
-
-
-/* custom Container */
+/* custom section Container */
 .section-Custom {
   padding-top: 70px;
   overflow: hidden;
@@ -380,7 +359,7 @@
 /* Responsive Styles */
 @media (max-width: 900px) {
   .section-Custom .img-card {
-    display: none; /* إخفاء الصورة */
+    display: none; 
   }
   .section-Custom .section-div {
     flex-direction: column-reverse;
